@@ -1,0 +1,27 @@
+{
+  "name": "protractor",
+  "version": "1.0.0",
+  "description": "protractor framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankurjain00/Protractor.git"
+  },
+  "author": "ankur jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankurjain00/Protractor/issues"
+  },
+  "homepage": "https://github.com/ankurjain00/Protractor#readme",
+  "dependencies": {
+    "@types/jasmine": "2.5.41",
+    "@types/jasminewd2": "^2.0.0",
+    "jasmine": "^2.4.1",
+    "package.json": "^2.0.1",
+    "protractor": "file:../",
+    "typescript": "~2.0.0"
+  }
+}
