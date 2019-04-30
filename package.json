@@ -1,27 +1,23 @@
 {
-  "name": "protractor",
+  "name": "protractortypescriptcucumber",
   "version": "1.0.0",
-  "description": "protractor framework",
+  "description": "framework for protractor",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "protractor JSFiles/configuration.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ankurjain00/Protractor.git"
-  },
-  "author": "ankur jain",
+  "author": "rahul",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ankurjain00/Protractor/issues"
-  },
-  "homepage": "https://github.com/ankurjain00/Protractor#readme",
   "dependencies": {
-    "@types/jasmine": "2.5.41",
-    "@types/jasminewd2": "^2.0.0",
-    "jasmine": "^2.4.1",
-    "package.json": "^2.0.1",
-    "protractor": "file:../",
-    "typescript": "~2.0.0"
+    "protractor": "^5.4.2",
+    "typescript": "~3.2.2",
+    "jasmine": "~3.3.1",
+    "@types/jasmine": "^3.3.5",
+    "@types/jasminewd2": "2.0.6",
+    "ts-node": "7.0.1",
+    "@types/node": "10.12.18"
   }
 }
