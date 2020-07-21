@@ -6,10 +6,15 @@ Install these prerequisites to follow.
 
 NPM: https://nodejs.org
 
-Proctractor: ``` $ npm install -g protractor ```
-
-``` $ npm install  ```
+Proctractor: 
+``` 
+$ npm install -g protractor 
+ 
+$ npm install  
+```
 
 ## Run
 
-``` $ npm run test ```
+``` 
+$ npm run test 
+```
