@@ -15,6 +15,8 @@ $ npm install
 
 ## Run
 
-``` 
+```
+$ webdriver-manager update
+$ webdriver-manager start
 $ npm run test 
 ```
