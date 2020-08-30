@@ -8,5 +8,4 @@
 *.sln.iml
 run output
 
-package-lock.json
 node_modules/
