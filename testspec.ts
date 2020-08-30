@@ -1,5 +1,4 @@
-import {browser,element,by} from "protractor"
-import {async} from "q"
+import {browser} from "protractor"
 import { calculator } from "./pageObjects/calculator";
 import { angularHomePage } from "./pageObjects/angularHomePage";
 
